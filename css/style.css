@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Divider{
+    padding: 2rem 0;
+}
+
+.banner-area{ 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    text-align: center  ;
+}
+#cwhite{
+    color: #fff;
+}
+
+#AboutMePic{
+    text-align: center;
+}
+#AboutMe{
+    padding: 0 2rem 5rem 2rem;
+}
+.banner-area:after{ 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: #313131;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    z-index: -1;
+}
+
+#Works{
+    background: #313131;
+}
+
+.PaintingDesc{
+    padding: 0 2rem 2rem 2rem;
+}
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 100vh;
+    background: #fff;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.container2{
+    text-align: center;
+    color: #313131;
+    font-weight: 700;
+    margin: 0 0 5rem 0;
+    padding-top: 50px;
+}
+
+.container h1{
+    margin: 0;
+    font-size: 70px;
+}
+
+.container span{
+    border: 6px solid #fff;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen{
+    margin: 0px;
+    display: block;
+    font-size: 30px;
+    font-family: 'Quando';
+}
+.semi{
+    font-size: 20px;
+}
+
+.bannerbutton{
+    color: #313131;
+    padding: 10px 24px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+.bannerbutton:hover{
+    opacity: .6;
+}
+
+.projectsbutton{
+    color: white;
+    padding: 10px 24px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+.projectsbutton:hover{
+    opacity: .6;
+    color: black;
+    background-color: white;
+}
+
+
+#ProjectHolder{
+    background: #666463;
+    color: #fff;
+    padding: 5rem 0;
+    margin: 0;
+}
+.projectbuton{
+    padding: 5% 0 10% 0;
+}
+#PaddingRemoval{
+    margin: 0;
+}
+.MarginRemoval{
+    margin: 0;
+    padding: 0;
+}
+#areafield{
+    height: 40px;
+    background-color: #f6f6f6;
+    border: none;
+    width: 80%;
+    margin: 0 0 9px 0;
+}
+#spancontact{
+    padding: 0 0 0 10%;
+}
+
+.CenterItem{
+    text-align: center;
+}
+
+.btn-dark{
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+#InfoField span{
+    text-align: start;
+}
+textarea {
+    width: 80%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin: 0 0 9px 0;
+}
+.Roboto{
+    font-family: 'Roboto Flex';
+}
+.Judson{
+    font-family: 'Judson';
+}
+.Quando{
+    font-family: 'Quando';
+}
+#Paintings{
+    width: 100%;
+    height: 100%;
+}
+#ProjectContainer a{
+    color: white;
+    text-decoration: none;
+}
+#ProjectContainer a p{
+    text-align: start;
+    margin: 0 0 0 0rem;
+}
+  ul{
+    list-style-type: none;
+  }
+#FooterContact{
+    padding: 0 3rem;
+}
+
+@media (min-width: 768px) {
+    .BurgerNav{
+        display: none;
+    }
+    #BurgerNav{
+        display: none;
+    }
+    #NavigationMenu{
+        display: flex !important;
+    }
+    #NavigationMenu{
+        display: flex;
+        flex-direction: row;
+    }
+    #ProjectContainer a p{
+        text-align: start;
+        margin: 0 0 0 0rem;
+    }
+    .imagebox{
+        height: 380px;
+    }
+    .PaintingDesc{
+        padding: 0 11rem 2rem 11rem;
+    }
+    .cen{
+        font-size: 60px;
+    }
+    .semi{
+        font-size: 40px;
+    }
+}
+
+.zoomcontainer{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+.zoomcontainer img{
+    transition: transform .6s;
+    
+}
+.zoomcontainer:hover img{
+    transform: scale(1.2) ;
+    cursor: zoom-in;
+}
+
+#ProjectContainer{
+    text-align: center;
+    overflow: hidden;
+}
+#ProjectContainer img{
+    width: 100%;
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
