@@ -12,6 +12,9 @@
 .Divider{
     padding: 2rem 0;
 }
+.TextMove{
+    padding: 0 0 2rem 1rem;
+}
 
 .banner-area{ 
     background-position: center center;
@@ -150,6 +153,13 @@
     width: 80%;
     margin: 0 0 9px 0;
 }
+.areafield{
+    height: 40px;
+    background-color: #f6f6f6;
+    border: none;
+    width: 80%;
+    margin: 0 0 9px 0; 
+}
 #spancontact{
     padding: 0 0 0 10%;
 }
@@ -235,6 +245,9 @@ textarea {
     }
     .semi{
         font-size: 40px;
+    }
+    .TextMove{
+        padding: 0 0 2rem 5rem;
     }
 }
 
